@@ -11,13 +11,17 @@ Average degree: 12.1303<br>
 Number of Distinctly connected Components: 269609
 </p>
 Some connected components of the Citation graph:
+<rb>
+  
 <p align="center">
 <img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/g.png">
   </p>
 <br>
 Degree Distribution of the Citation Network (degree vs count of nodes):
+<br>
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/dd1.jpg" height="300">
+<img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/dd1.jpg" height="400">
 </p>
 <br>
 
@@ -55,3 +59,13 @@ where L is the Laplacian matrix, H is the eigen-vector of the sparse laplacian m
 
 Given below are results of spectral clustering for k=2 to k=5:
 <img src= "https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/cluster.png">
+
+## References 
+1.  Schloss Dagstuhl Leibniz Center for Informatics.  Dblp.org,May 2020.
+2.  Loredana M. Genovese, Marco M. Mosca, Marco Pellegrini,and Filippo Geraci. Dot2dot:  accurate whole-genome tan-dem repeats discovery.Bioinformatics (Oxford, England),35(6):914–922, Mar 2019. 30165507[pmid].
+3.  Aditya Grover and Jure Leskovec.  node2vec:  Scalable fea-ture learning for networks.CoRR, abs/1607.00653, 2016.
+4.  Peter  Hoff,  Adrian  Raftery,  and  Mark  Handcock.    Latentspace approaches to social network analysis.Journal of theAmerican Statistical Association, 97:1090–1098, 02 5.  Akihiro  Inokuchi,  Takashi  Washio,  and  Hiroshi  Motoda.Complete mining of frequent patterns from graphs:  Mininggraph data.Machine Learning, 50(3):321–354, Mar 2003.
+6.  Yu Jin and Joseph F. J ́aJ ́a.  A high performance implemen-tation of spectral clustering on CPU-GPU platforms.CoRR,abs/1802.04450, 2018.
+7.  David Liben-Nowell and Jon Kleinberg. The link predictionproblem for social networks.  InProceedings of the TwelfthInternational  Conference  on  Information  and  KnowledgeManagement,  CIKM  ’03,  page  556–559,  New  York,  NY,USA, 2003. Association for Computing Machinery.
+8.  Maschhoff,  ,  K.  J.  Maschhoff,  K.  J.  Maschhoff,  D.  C.Sorensen,  and  D.  C.  Sorensen.P  arpack:   An  efficientportable large scale eigenvalue package for distributed mem-ory parallel architectures.
+9.  Tomas Mikolov, Kai Chen, G.s Corrado, and Jeffrey Dean.Efficient estimation of word representations in vector space.Proceedings of Workshop at ICLR, 2013, 01 2013.
