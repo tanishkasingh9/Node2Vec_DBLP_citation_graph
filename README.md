@@ -40,3 +40,8 @@ After our network is aptly converted into nxd dimensional feature matrix from th
  </p>
  
 where L is the Laplacian matrix, H is the eigen-vector of the sparse laplacian matrix, and I is the identity matrix. As mentioned, the laplacian matrix of the citation network is very sparse, and calculating an inverse of L is very costly. Scipy.sparse uses ARPACK algorithm to efficiently pick second smallest eigen-value directly using linalg.eigsh even when the input matrix is sparse.
+
+## Citation Graph Clustering Result
+
+Given below are results of spectral clustering for k=2 to k=5:
+<img src= "https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/cluster.png">
