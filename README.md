@@ -10,6 +10,11 @@ Number of edges: 375344782 <br>
 Average degree: 12.1303<br>
 Number of Distinctly connected Components: 269609
 </p>
+Some connected components of the Citation graph:
+<img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/g.png">
+<br>
+Degree Distribution of the Citation Network (degree vs count of nodes):
+<img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/dd1.jpg" height="100">
 
 ## Node2Vec
 Graph Networks have been used as a medium for representing data and the relationships between the data and the database. It provides a data structure equipped to model the real
