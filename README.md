@@ -11,11 +11,14 @@ Average degree: 12.1303<br>
 Number of Distinctly connected Components: 269609
 </p>
 Some connected components of the Citation graph:
+<p align="center">
 <img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/g.png">
+  </p>
 <br>
 Degree Distribution of the Citation Network (degree vs count of nodes):
-<img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/dd1.jpg" height="100">
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/tanishkasingh9/Node2Vec_DBLP_citation_graph/master/dd1.jpg" height="300">
+</p>
 ## Node2Vec
 Graph Networks have been used as a medium for representing data and the relationships between the data and the database. It provides a data structure equipped to model the real
 world data and visualize it in a form that is innate to human understanding. It represents relationships as connections and objects as nodes, and there are standard techniques that have been built to describe graphs. We establish the concept of sensemaking in graphs as tasks involving prediction of the labels, and link prediction between two nodes of a given graph network. For predicting labels or classifying a node, we cluster a node with other nodes that have higher probability of having the same label. Some applications of classification task on graph network are predicting functional labels of proteins in a protein - protein interaction graph, and predicting political affiliations based on purchase history. Link prediction task can be used in recommendation systems and predicting real world friends. In this graph, each paper is represented as a node where an edge between nodes exists if a paper cites another paper. The network is sparse, proving to be both an advantage, to design discrete algorithms given the task at hand, and a disadvantage, harder to generalize sparse data for statistical learning. Any supervised learning will require a set of discriminating and informative domain specific features based on expert
